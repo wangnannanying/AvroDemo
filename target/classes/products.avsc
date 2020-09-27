@@ -1,0 +1,19 @@
+{
+ "type": "array",
+ "items":{
+    "type":"record",
+    "name":"products",
+    "fields": [
+         {"name": "product_seris", "type": "string"},
+         {"name": "product_name", "type": "string"},
+         {"name": "prices", "type":
+            {"type": "array",
+                "items":{
+                    "type":"record",
+                    "name" : "price",
+                    "fields":[ {"name":"model","type":"string"}, {"name":"price","type":"float"} ]}
+            }
+         }
+    ]
+ }
+}
