@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a585a6a-4da8-4c39-b69a-051d1199477c" name="Default Changelist" comment="" />
+    <list default="true" id="8a585a6a-4da8-4c39-b69a-051d1199477c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/price$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/price$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/price.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/products$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/products$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/products.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvroDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inspur/avroExample/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inspur/avroExample/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspur/avroExample/ConvertAvroToJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inspur/avroExample/ConvertAvroToJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products.avro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspur/AppTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +36,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,20 +60,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1hzgN1rSShvQDBJ5Hmw1gm9NCsN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/avro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.inspur.avroExample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github Repos\AvroDemo" />
       <recent name="D:\Workspace Store\IDEA\AvroDemo\src\main\avro" />
     </key>
   </component>
@@ -64,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertAvroToJson">
+  <component name="RunManager" selected="Application.AvroDeOrSerialization">
     <configuration name="AvroDeOrSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.inspur.avroExample.AvroDeOrSerialization" />
       <module name="AvroDemo" />
@@ -106,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertAvroToJson" />
         <item itemvalue="Application.AvroDeOrSerialization" />
+        <item itemvalue="Application.ConvertAvroToJson" />
         <item itemvalue="Application.AvroSerialization" />
       </list>
     </recent_temporary>
@@ -124,10 +152,26 @@
       <updated>1601019290742</updated>
       <workItem from="1601019293587" duration="6294000" />
       <workItem from="1601169746146" duration="4192000" />
+      <workItem from="1602223421881" duration="3299000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix:修改pom文件，使得可以根据user.avsc自动生成User.java文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:修改pom文件，使得可以根据user.avsc自动生成User.java文件" />
   </component>
 </project>
